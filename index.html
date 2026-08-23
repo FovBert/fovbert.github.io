@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FovBert — системный администратор, разработчик, безопасность</title>
+
+<meta name="description" content="FovBert — системный администратор и разработчик. Python, PHP, JavaScript, C. Сети MikroTik и Cisco, серверы, автоматизация, информационная безопасность. Курс на DevOps.">
+<meta name="author" content="FovBert">
+<meta name="theme-color" content="#0a0c0f" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="FovBert — sysadmin · developer · security">
+<meta property="og:description" content="Системный администратор и разработчик. Сети, серверы, автоматизация, безопасность. Курс на DevOps.">
+<meta property="og:url" content="https://fovbert.github.io/">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://fovbert.github.io/">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+
+<script>
+  // тема применяется до первой отрисовки — без вспышки
+  try {
+    var s = localStorage.getItem('theme');
+    document.documentElement.dataset.theme =
+      s || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  } catch (e) {}
+</script>
+</head>
+
+<body>
+
+<a class="skip" href="#main">К содержимому</a>
+
+<header class="bar">
+  <a class="bar__id" href="#top"><span class="dot" aria-hidden="true"></span>FovBert</a>
+  <nav class="bar__nav" aria-label="Разделы">
+    <a href="#about">О себе</a>
+    <a href="#focus">Направления</a>
+    <a href="#stack">Стек</a>
+    <a href="#now">Сейчас</a>
+    <a href="#activity">Активность</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+  <button class="toggle" type="button" data-theme-toggle aria-label="Переключить тему">
+    <svg viewBox="0 0 24 24" aria-hidden="true" width="16" height="16"><path class="ico-moon" d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/><g class="ico-sun"><circle cx="12" cy="12" r="4.2"/><path d="M12 1.8v3M12 19.2v3M1.8 12h3M19.2 12h3M4.8 4.8 6.9 6.9M17.1 17.1l2.1 2.1M19.2 4.8 17.1 6.9M6.9 17.1 4.8 19.2"/></g></svg>
+  </button>
+</header>
+
+<main id="main">
+
+  <!-- ══ HERO ══ -->
+  <section class="hero" id="top">
+    <p class="hero__kicker mono">SYSADMIN · DEVELOPER · SECURITY</p>
+    <h1 class="hero__name">FovBert</h1>
+    <p class="hero__role">
+      Системный администратор и разработчик.<br>
+      Строю сети и серверы, пишу код, ломаю то, что плохо защищено&nbsp;— чтобы починить.
+    </p>
+    <blockquote class="hero__quote">Моя жизнь — это IT и люди в нём.</blockquote>
+
+    <div class="hero__links">
+      <a class="btn btn--primary" href="https://t.me/fovbert1" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M21.7 3.4 2.9 10.7c-1.1.4-1.1 1.1-.2 1.4l4.7 1.5 1.8 5.5c.2.6.4.8.8.8.4 0 .6-.2.9-.5l2.2-2.2 4.6 3.4c.8.5 1.4.2 1.6-.8l3-14c.3-1.2-.5-1.8-1.6-1.4Z"/></svg>
+        @fovbert1
+      </a>
+      <a class="btn" href="https://github.com/FovBert" target="_blank" rel="noopener">
+        <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path d="M8 0C3.6 0 0 3.6 0 8c0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4v-1.4c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.2 1.9.9 2.4.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.8 3.7-3.6 3.9.3.3.5.8.5 1.5v2.2c0 .2.1.5.6.4C13.7 14.5 16 11.5 16 8c0-4.4-3.6-8-8-8Z"/></svg>
+        github.com/FovBert
+      </a>
+      <a class="btn" href="https://itcnt46.ru" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.7 5.7 3.7 9S14.5 21.3 12 21c-2.5-2.7-3.7-5.7-3.7-9S9.5 2.7 12 3Z"/></svg>
+        itcnt46.ru
+      </a>
+    </div>
+
+    <ul class="hero__meta mono">
+      <li><span>ROLE</span> System Administrator</li>
+      <li><span>FOCUS</span> Networks · Servers · Security</li>
+      <li><span>NEXT</span> DevOps</li>
+    </ul>
+  </section>
+
+  <!-- ══ 01 О СЕБЕ ══ -->
+  <section class="sec" id="about">
+    <div class="sec__head">
+      <span class="sec__idx mono">01</span>
+      <h2 class="sec__title">О себе</h2>
+      <span class="sec__en mono">ABOUT</span>
+    </div>
+
+    <div class="prose">
+      <p>
+        Занимаюсь IT целиком: от обжима витой пары и настройки маршрутизатора
+        до бэкенда, деплоя и разбора того, почему это упало в три ночи.
+        Работаю системным администратором в компании <b>«Ай Ти Центр»</b>&nbsp;—
+        держу инфраструктуру, сеть и людей в рабочем состоянии.
+      </p>
+      <p>
+        Пишу на <b>Python</b>, <b>PHP</b> и <b>JavaScript</b>, изучаю <b>C&nbsp;/&nbsp;C++</b>&nbsp;— чтобы понимать,
+        что происходит на уровне ниже. Разрабатываю сайты и мобильные веб-приложения,
+        автоматизирую рутину скриптами и Telegram-ботами.
+        Отдельная любовь&nbsp;— <b>информационная безопасность</b>: смотрю на свои же системы
+        глазами атакующего.
+      </p>
+      <p>
+        Работаю с <b>MikroTik</b> и <b>Cisco</b>, понимаю, как устроена реальная сеть&nbsp;—
+        не по картинке из учебника, а с её VLAN'ами, NAT'ом, кривым провайдером и
+        аптаймом, который нельзя терять. Двигаюсь в сторону <b>DevOps</b>.
+      </p>
+    </div>
+
+    <ul class="facts">
+      <li><b>5+</b><span>языков в работе</span></li>
+      <li><b>24/7</b><span>инфраструктура</span></li>
+      <li><b>MikroTik<br>Cisco</b><span>сетевое ядро</span></li>
+      <li><b>DevOps</b><span>следующая ступень</span></li>
+    </ul>
+  </section>
+
+  <!-- ══ 02 НАПРАВЛЕНИЯ ══ -->
+  <section class="sec" id="focus">
+    <div class="sec__head">
+      <span class="sec__idx mono">02</span>
+      <h2 class="sec__title">Направления</h2>
+      <span class="sec__en mono">WHAT I DO</span>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <h3>Разработка<span class="mono">DEV</span></h3>
+        <p>Сайты, мобильные веб-приложения, серверная логика и API. От макета до продакшена и поддержки.</p>
+      </article>
+      <article class="card">
+        <h3>Безопасность<span class="mono">SEC</span></h3>
+        <p>Пентест веб-приложений, аудит инфраструктуры, харденинг серверов и сетевого периметра.</p>
+      </article>
+      <article class="card">
+        <h3>Сети<span class="mono">NET</span></h3>
+        <p>MikroTik и Cisco: маршрутизация, VLAN, VPN, NAT, firewall, QoS. Проектирование и разбор аварий.</p>
+      </article>
+      <article class="card">
+        <h3>Инфраструктура<span class="mono">OPS</span></h3>
+        <p>Серверы Linux и Windows, виртуализация, мониторинг, резервное копирование, восстановление.</p>
+      </article>
+      <article class="card">
+        <h3>Автоматизация<span class="mono">AUTO</span></h3>
+        <p>Скрипты, Telegram-боты, интеграции и пайплайны. Всё, что повторяется дважды, должно делаться само.</p>
+      </article>
+      <article class="card card--next">
+        <h3>DevOps<span class="mono">NEXT</span></h3>
+        <p>Контейнеризация, CI/CD, инфраструктура как код. Текущее направление роста.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ══ 03 СТЕК ══ -->
+  <section class="sec" id="stack">
+    <div class="sec__head">
+      <span class="sec__idx mono">03</span>
+      <h2 class="sec__title">Стек</h2>
+      <span class="sec__en mono">STACK</span>
+    </div>
+
+    <dl class="stack">
+      <div class="stack__row">
+        <dt class="mono">Языки</dt>
+        <dd>
+          <span class="tag">Python</span><span class="tag">PHP</span><span class="tag">JavaScript</span>
+          <span class="tag">Bash</span><span class="tag">SQL</span>
+          <span class="tag tag--learn">C / C++<i>изучаю</i></span>
+        </dd>
+      </div>
+      <div class="stack__row">
+        <dt class="mono">Web</dt>
+        <dd>
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">REST API</span>
+          <span class="tag">Адаптивная вёрстка</span><span class="tag">Mobile-first</span><span class="tag">PWA</span>
+        </dd>
+      </div>
+      <div class="stack__row">
+        <dt class="mono">Сети</dt>
+        <dd>
+          <span class="tag">MikroTik RouterOS</span><span class="tag">Cisco IOS</span>
+          <span class="tag">VLAN</span><span class="tag">VPN</span><span class="tag">NAT</span>
+          <span class="tag">Firewall</span><span class="tag">Маршрутизация</span>
+        </dd>
+      </div>
+      <div class="stack__row">
+        <dt class="mono">Системы</dt>
+        <dd>
+          <span class="tag">Linux</span><span class="tag">Windows Server</span><span class="tag">Nginx</span>
+          <span class="tag">Виртуализация</span><span class="tag">Мониторинг</span><span class="tag">Бэкапы</span>
+          <span class="tag">Железо и серверы</span>
+        </dd>
+      </div>
+      <div class="stack__row">
+        <dt class="mono">Безопасность</dt>
+        <dd>
+          <span class="tag">Пентест web</span><span class="tag">Аудит инфраструктуры</span>
+          <span class="tag">Харденинг</span><span class="tag">Сетевой периметр</span>
+        </dd>
+      </div>
+      <div class="stack__row">
+        <dt class="mono">Инструменты</dt>
+        <dd>
+          <span class="tag">Git</span><span class="tag">Telegram Bot API</span>
+          <span class="tag tag--learn">Docker<i>изучаю</i></span>
+          <span class="tag tag--learn">CI / CD<i>изучаю</i></span>
+        </dd>
+      </div>
+    </dl>
+  </section>
+
+  <!-- ══ 04 СЕЙЧАС ══ -->
+  <section class="sec" id="now">
+    <div class="sec__head">
+      <span class="sec__idx mono">04</span>
+      <h2 class="sec__title">Сейчас</h2>
+      <span class="sec__en mono">CURRENTLY</span>
+    </div>
+
+    <ol class="tl">
+      <li>
+        <span class="tl__mark mono">NOW</span>
+        <h3>Системный администратор — «Ай Ти Центр»</h3>
+        <p>Инфраструктура, сети, серверы, рабочие места и пользователи. Мониторинг, резервное копирование, безопасность контура.</p>
+      </li>
+      <li>
+        <span class="tl__mark mono">WEB</span>
+        <h3>itcnt46.ru — разработка и сопровождение</h3>
+        <p>Сайт компании: вёрстка, серверная часть, поддержка и развитие. <a href="https://itcnt46.ru" target="_blank" rel="noopener">Открыть&nbsp;↗</a></p>
+      </li>
+      <li>
+        <span class="tl__mark mono">R&amp;D</span>
+        <h3>Автоматизация и Telegram-боты</h3>
+        <p>Скрипты и боты, которые снимают рутину с людей и не дают ей вернуться.</p>
+      </li>
+      <li>
+        <span class="tl__mark mono">NEXT</span>
+        <h3>Путь в DevOps</h3>
+        <p>Контейнеры, пайплайны, инфраструктура как код. Учу C/C++, чтобы видеть систему до самого низа.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- ══ 05 АКТИВНОСТЬ ══ -->
+  <section class="sec" id="activity">
+    <div class="sec__head">
+      <span class="sec__idx mono">05</span>
+      <h2 class="sec__title">Активность</h2>
+      <span class="sec__en mono">GITHUB</span>
+    </div>
+
+    <div class="cal" data-cal>
+      <div class="cal__top">
+        <div class="cal__metrics" data-cal-metrics>
+          <div><b>—</b><span>вкладов за год</span></div>
+          <div><b>—</b><span>активных дней</span></div>
+          <div><b>—</b><span>серия сейчас</span></div>
+          <div><b>—</b><span>лучшая серия</span></div>
+        </div>
+        <p class="cal__range mono" data-cal-range></p>
+      </div>
+
+      <div class="cal__scroll">
+        <div class="cal__grid" data-cal-grid role="img" aria-label="Календарь активности GitHub за последний год">
+          <p class="cal__empty mono">загрузка календаря…</p>
+        </div>
+      </div>
+
+      <div class="cal__foot">
+        <span class="mono" data-cal-updated></span>
+        <span class="cal__legend">
+          меньше
+          <i data-lvl="0"></i><i data-lvl="1"></i><i data-lvl="2"></i><i data-lvl="3"></i><i data-lvl="4"></i>
+          больше
+        </span>
+      </div>
+    </div>
+
+    <div class="repos" data-repos>
+      <p class="repos__hint mono">загрузка репозиториев…</p>
+    </div>
+  </section>
+
+  <!-- ══ 06 КОНТАКТЫ ══ -->
+  <section class="sec sec--last" id="contact">
+    <div class="sec__head">
+      <span class="sec__idx mono">06</span>
+      <h2 class="sec__title">Контакты</h2>
+      <span class="sec__en mono">CONTACT</span>
+    </div>
+
+    <div class="prose"><p>Пишите по любым техническим вопросам: разработка, сеть, сервер, безопасность, автоматизация.</p></div>
+
+    <div class="contacts">
+      <a class="contact" href="https://t.me/fovbert1" target="_blank" rel="noopener">
+        <span class="mono">TELEGRAM</span>
+        <b>@fovbert1</b>
+        <i aria-hidden="true">↗</i>
+      </a>
+      <a class="contact" href="https://github.com/FovBert" target="_blank" rel="noopener">
+        <span class="mono">GITHUB</span>
+        <b>FovBert</b>
+        <i aria-hidden="true">↗</i>
+      </a>
+      <a class="contact" href="https://itcnt46.ru" target="_blank" rel="noopener">
+        <span class="mono">WEB</span>
+        <b>itcnt46.ru</b>
+        <i aria-hidden="true">↗</i>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <span class="mono">© <span data-year>2026</span> FovBert</span>
+  <span class="mono foot__mid">Built with HTML, CSS &amp; no frameworks</span>
+  <a class="mono" href="https://t.me/fovbert1" target="_blank" rel="noopener">@fovbert1</a>
+</footer>
+
+<script src="assets/app.js" defer></script>
+</body>
+</html>
