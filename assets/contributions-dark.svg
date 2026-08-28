@@ -9,7 +9,7 @@
   rect{shape-rendering:geometricPrecision}
   </style>
 <text class="t sub" x="34" y="15">GITHUB ACTIVITY</text>
-<text class="m sub" x="773" y="15" text-anchor="end">2025-08-24 → 2026-08-27</text>
+<text class="m sub" x="773" y="15" text-anchor="end">2025-08-24 → 2026-08-28</text>
 <line x1="34" y1="24" x2="773" y2="24" stroke="#1b2129" stroke-width="1"/>
 <text class="m num" x="34" y="46">0</text>
 <text class="t cap" x="34" y="57">ВКЛАДОВ</text>
@@ -404,6 +404,7 @@
 <rect x="762" y="90" width="11" height="11" rx="2.5" fill="#12171d" stroke="#1b2129" stroke-width=".5"><title>2026-08-25 — 0 вкладов</title></rect>
 <rect x="762" y="104" width="11" height="11" rx="2.5" fill="#12171d" stroke="#1b2129" stroke-width=".5"><title>2026-08-26 — 0 вкладов</title></rect>
 <rect x="762" y="118" width="11" height="11" rx="2.5" fill="#12171d" stroke="#1b2129" stroke-width=".5"><title>2026-08-27 — 0 вкладов</title></rect>
+<rect x="762" y="132" width="11" height="11" rx="2.5" fill="#12171d" stroke="#1b2129" stroke-width=".5"><title>2026-08-28 — 0 вкладов</title></rect>
 <text class="t lbl" x="34" y="176">@FovBert</text>
 <text class="t lbl" x="665" y="176" text-anchor="end">меньше</text>
 <rect x="671" y="168" width="9" height="9" rx="2" fill="#12171d" stroke="#1b2129" stroke-width=".5"/>
